@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body onload="load()">
+    <div id="header">
+        <h1>Dasboard</h1>
+
+    </div>
+    <div id="main">
+        <h1 id="counter"></h1>
+        <div id="add-opt1">
+            <h3 id="line-1">Push-Ups</h1>
+            <input type="button" value="20" id="add" onclick="add(20)">
+            <input type="button" value="50" id="add" onclick="add(50)">
+            <input type="button" value="100" id="add" onclick="add(100)">            
+        </div>
+        <div id="add-opt2">
+            <h3 id="line-1">Gym</h1>
+            <input type="button" value="1h" id="add" onclick="add(100)">
+            <input type="button" value="2h" id="add" onclick="add(200)">
+            <input type="button" value="3h" id="add" onclick="add(300)"> 
+        </div>
+        <div id="add-opt3">
+            <h3 id="line-1">reading</h1>
+            <input type="button" value="1 Chapter" id="add" onclick="add(-20)">
+            <input type="button" value="New Book" id="add" onclick="add(-50)">
+            
+        </div>
+    </div>
+</body>
+</html>
