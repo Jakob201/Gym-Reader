@@ -15,11 +15,14 @@ body{
     margin: 0;
 }
 #header{
-    background-color: rgb(86, 86, 86);
+    background-color: rgb(85, 83, 83);
     margin: 0;
     padding: 1%;
     padding-left: 3%;
     color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 #add{
     margin-right: 0.2%;
@@ -32,7 +35,7 @@ body{
 #add:hover{
     cursor: pointer;
 }
-#del{
+.del{
     margin-top: 5%;
     padding: 5%;
     background-color: rgb(183, 172, 172);
@@ -40,4 +43,11 @@ body{
     color: rgb(0, 0, 0);
     font-size: large;
     
+}
+#settings{
+    width: 10%;
+    background-color: rgb(168, 168, 168);
+    padding: 2%;
+    border-radius: 100px;
+    margin-right: 2%;
 }
