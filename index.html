@@ -14,23 +14,29 @@
     </div>
     <div id="main">
         <h1 id="counter"></h1>
-        <div id="add-opt1">
-            <h3 id="line-1">Push-Ups</h1>
-            <input type="button" value="20" id="add" onclick="add(20)">
-            <input type="button" value="50" id="add" onclick="add(50)">
-            <input type="button" value="100" id="add" onclick="add(100)">            
+        <div id="menu">
+            <input type="button" value="home" id="sel" onclick="location.reload()">
+            <input type="button" value="stats" id="sel" onclick="stats()">
         </div>
-        <div id="add-opt2">
-            <h3 id="line-1">Gym</h1>
-            <input type="button" value="1h" id="add" onclick="add(100)">
-            <input type="button" value="2h" id="add" onclick="add(200)">
-            <input type="button" value="3h" id="add" onclick="add(300)"> 
-        </div>
-        <div id="add-opt3">
-            <h3 id="line-1">reading</h1>
-            <input type="button" value="1 Chapter (20)" id="del-1" class="del" onclick="add(-20)">
-            <input type="button" value="New Book (50)" id="del-2" class="del" onclick="add(-50)">
-            
+        <div id="select">
+            <div id="add-opt1" class="container">
+                <h3 id="line-1">Push-Ups</h1>
+                <input type="button" value="20" id="add" onclick="push_up(20)">
+                <input type="button" value="50" id="add" onclick="push_up(50)">
+                <input type="button" value="100" id="add" onclick="push_up(100)">            
+            </div>
+            <div id="add-opt2" class="container">
+                <h3 id="line-1">Gym</h1>
+                <input type="button" value="1h" id="add" onclick="gym(100)">
+                <input type="button" value="2h" id="add" onclick="gym(200)">
+                <input type="button" value="3h" id="add" onclick="gym(300)"> 
+            </div>
+            <div id="add-opt3" class="container">
+                <h3 id="line-1">reading</h1>
+                <input type="button" value="1 Chapter (20)" id="del-1" class="del" onclick="chapter(20)">
+                <input type="button" value="New Book (50)" id="del-2" class="del" onclick="book(-50)">
+                
+            </div>
         </div>
     </div>
 </body>
