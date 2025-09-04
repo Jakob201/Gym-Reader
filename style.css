@@ -32,3 +32,12 @@ body{
 #add:hover{
     cursor: pointer;
 }
+#del{
+    margin-top: 5%;
+    padding: 5%;
+    background-color: rgb(183, 172, 172);
+    border-radius: 15px;
+    color: rgb(0, 0, 0);
+    font-size: large;
+    
+}
