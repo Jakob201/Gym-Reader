@@ -39,9 +39,9 @@ function push_up(amount){
 function gym(amount){
     x = localStorage.getItem("gym") 
     if(x == null)
-        localStorage.setItem("gym", amount/100)
+        localStorage.setItem("gym", amount/200)
     else{
-        localStorage.setItem("gym", parseInt(x) + (amount / 100))
+        localStorage.setItem("gym", parseInt(x) + (amount / 200))
     }
     add(amount)
 }
